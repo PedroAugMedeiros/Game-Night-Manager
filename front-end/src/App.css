@@ -1,0 +1,258 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./images/GameNightBackground.gif');
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+}
+
+.register-container {
+  background: rgb(28, 28, 28);
+  padding: 2%;
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 5px;
+  align-items: space-around;
+  justify-content: space-around;
+  border: solid 5px black;
+}
+
+.register-title {
+  background: url('./images/GameNightBackground.gif');
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: fantasy;
+  padding: 1%;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.title {
+  color: rgb(255, 0, 0);
+  font-size: 500%;
+}
+
+.register-inputs {
+  background: rgb(28, 28, 28);
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+
+.register-input {
+  background: white;
+  margin: 2%;
+  width: 80%;
+  border-radius: 10px;
+  padding: 2%;
+  border: solid 3px black;
+  font-size: 150%;
+  font-family: fantasy;
+}
+
+.register-button {
+  margin: 2%;
+  width: 80%;
+  border-radius: 10px;
+  padding: 2%;
+  border: solid 3px black;
+  font-size: 150%;
+}
+
+.content-manager {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(46, 46, 46, 0.9);
+  border-radius: 5px;
+}
+
+.card-container {
+  margin: 0;
+  padding: 0;
+  background: rgb(28, 28, 28);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+  border: solid 5px black;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+
+.cards {
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.Editor {
+  background: white;
+  color: white;
+  align-self: flex-end;
+  border: 10px solid black;
+  font-family: fantasy;
+}
+
+.desfoc-container {
+  filter: brightness(20%)
+}
+
+.buttonsFilter {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  border: 5px solid black;
+  border-radius: 5px;
+  background: rgba(46, 46, 46, 0.9);
+}
+
+.card-container-title {
+  width: 95%;
+  background: url('./images/GameNightBackground.gif');
+  text-align: center;
+  font-family: fantasy;
+  padding: 1%;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.title-card-container {
+  color: rgb(255, 0, 0);
+  font-size: 300%;
+}
+
+.search-area {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  padding: 1%;
+  background: rgba(46, 46, 46, 0.9);
+  margin: 2%;
+  border-radius: 5px;
+}
+
+.buttons-card {
+  display: flex;
+  width: 80%;
+  font-size: 150%;
+}
+
+.alert-h1 {
+  color: rgb(255, 0, 0);
+}
+
+.search-input {
+  width: 50%;
+  border: none;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+@media (max-width: 819px) {
+
+  .content-manager {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .register-inputs {
+    width: 95%;
+  }
+
+
+  .card-container {
+    align-items: center;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    width: 96%;
+  }
+
+
+  .buttons-card {
+    margin: 1%;
+  }
+
+  .search-input {
+    width: 90%;
+    border: none;
+    padding: 1%;
+    border-radius: 5px;
+    margin: 1%;
+  }
+}
+
+@media (max-width: 540px) {
+  .register-container {
+    background: rgb(28, 28, 28);
+    padding: 2%;
+    width: 98%;
+    margin-top: 20px;
+    border-radius: 5px;
+    align-items: space-around;
+    justify-content: space-around;
+    border: solid 5px black;
+  }
+
+
+  .card-container {
+    width: 98%;
+  }
+
+  .buttons-card {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+  }
+
+  .search-input {
+    width: 90%;
+    border: none;
+    padding: 1%;
+    border-radius: 5px;
+    margin: 5%;
+  }
+}
+
+@media (max-width: 281px) {
+  .title {
+    font-size: 300%;
+  }
+
+  .title-card-container {
+    font-size: 250%;
+  }
+}
