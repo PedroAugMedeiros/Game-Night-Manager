@@ -16,6 +16,8 @@ Back: NodeJs, express, nodemon, Api Rest, json, cors
 
 ## cd back-end
 
+## npm install
+
 ## npm start
  
 ## Abra um segundo terminal (split terminal)
@@ -23,5 +25,7 @@ Back: NodeJs, express, nodemon, Api Rest, json, cors
 ## cd Game-Night-Manager
 
 ## cd front-end
+
+## npm install
 
 ## npm start
